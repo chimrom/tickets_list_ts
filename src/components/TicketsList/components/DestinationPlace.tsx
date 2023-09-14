@@ -18,7 +18,7 @@ export const DestinationPlace: FC<DestinationPlaceProps> = ({
 }) => {
 	const currentDate = getCurrentDate(date);
 	return (
-		<div className="flex flex-col text-gray-600 max-[420px]:text-[12px] sm:text-sm  md:text-base">
+		<div className="flex flex-col text-gray-600 max-[420px]:text-[11px] sm:text-sm  md:text-base">
 			<span className="text-base sm:text-xl md:text-2xl lg:text-4xl">
 				{time}
 			</span>

@@ -21,11 +21,11 @@ export const TicketsListItem: FC<TicketsListItemProps> = ({
 }) => {
 	return (
 		<div className="flex bg-white border w-full  rounded ">
-			<div className="flex flex-col justify-between px-1 py-4 sm:px-4  items-center border-r">
+			<div className="flex flex-col justify-between  px-1 pb-4 sm:px-4  items-center border-r">
 				<div className="mb-2 ">
 					<CarrierLogo carrier={ticket.carrier} />
 				</div>
-				<button className="bg-orange-500 text-white text-[10px] sm:text-xs rounded lg:text-base px-4 lg:px-8 py-1 hover:opacity-90 lg:w-4/6">
+				<button className="bg-orange-500 text-white text-[10px] sm:text-xs rounded lg:text-base px-4 lg:px-8 py-1 hover:opacity-90 w-24 md:w-44 lg:w-4/6">
 					<p>Купить за</p>
 					<CurrentPrice
 						price={ticket.price}

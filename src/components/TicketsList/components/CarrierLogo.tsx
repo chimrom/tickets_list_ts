@@ -35,7 +35,7 @@ export const CarrierLogo: FC<{ carrier: string }> = ({ carrier }) => {
 		<img
 			src={Logo ? Logo : ''}
 			alt={carrier}
-			className="w-96 h-24 object-contain"
+			className="w-20 sm:w-48 md:w-64 lg:w-96 h-24 object-contain"
 		/>
 	);
 };

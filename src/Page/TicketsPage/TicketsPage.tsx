@@ -48,7 +48,7 @@ export const TicketsPage = () => {
 	}, []);
 
 	return (
-		<main className="container flex flex-col md:flex-row gap-5 mt-20  justify-center">
+		<main className="container flex flex-col md:flex-row gap-5 mt-10 sm:mt-20  justify-center">
 			<SideBarTickets
 				currency={currency}
 				stopsCount={stopsCount}
